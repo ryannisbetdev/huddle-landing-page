@@ -1,0 +1,35 @@
+@import '../../Sass/Variables.scss';
+
+.Section2Container {
+margin-top: 10%;
+}
+
+.SectionText{
+    width: 40%;
+    color: $dark-cyan;
+    text-align: left;
+    margin-left: 10%;
+    display: inline-block;
+    padding-top: 5%;
+    h1 {
+        font-family: $header-font;
+    }
+
+    p {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+}
+
+.SectionImage {
+    width: 40%;
+
+    img {
+        width: 70%;
+    }
+}
+
+#Section2Image {
+    float: right;
+}
+  

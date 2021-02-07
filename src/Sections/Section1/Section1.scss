@@ -1,0 +1,70 @@
+@import '../../Sass/Variables.scss';
+
+
+.Section1Container {
+    padding-top: 10%;
+    color: $dark-cyan;
+
+    h1 {
+        font-family: $header-font;
+        font-size: 3rem;
+        
+    }
+
+    p {
+        font-family: $body-font;
+        font-size: 1.2rem;
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    button {
+        width: 20%;
+        background-color: $pink;
+        border: none;
+        font-family: $body-font;
+        color: $pale-blue;
+        font-size: 1.2rem;
+        padding: 20px;
+        font-weight: 700;
+        border-radius: 30px;
+        margin-top: 1%;
+        -webkit-box-shadow: -3px -2px 40px -20px rgba(74,73,74,1);
+        -moz-box-shadow: -3px -2px 40px -20px rgba(74,73,74,1);
+        box-shadow: -3px -2px 44px -20px rgba(74,73,74,1);
+        cursor: pointer;
+
+       
+        
+    }
+
+    button:hover {
+        background-color: $light-pink;
+    }
+
+    img {
+        width: 50%;
+        padding-top: 5%;
+    }
+
+    .StatBox{
+        width: 50%;
+        display: inline-block;
+
+        img {
+            width: 4%;
+            margin-right: 15%;
+        }
+
+        h1 {
+            font-family: $body-font;
+            font-size: 4rem;
+            margin: 0;
+        }
+
+        p {
+            opacity: 60%;
+            margin-top: 1%;
+        }
+    }
+}
