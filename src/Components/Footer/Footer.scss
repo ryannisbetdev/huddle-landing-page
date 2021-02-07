@@ -1,0 +1,61 @@
+@import '../../Sass/Variables.scss';
+
+footer {
+    background-color: $dark-cyan;
+    color: $pale-blue;
+    text-align: left;
+    font-family: $body-font;
+    height: 27vh;
+}
+
+.FooterLeft {
+    width: 50%;
+    float: left;
+    background-color: $dark-cyan;
+    padding-left: 10%;
+    img {
+        width: 30%;
+    }
+
+    p {
+        width: 30%;
+    }
+}
+
+.FooterRight {
+    width: 40%;
+    float: right;
+    background-color: $dark-cyan;   
+
+    h1 {
+        text-transform: uppercase;
+        text-align: left;
+    }
+    p {
+        width: 50%;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 1rem;
+        width: 50%;
+        margin-bottom: 2%
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px;
+        background-color: $pink;
+        border: $pink solid 2px;
+        color: $pale-blue;
+        font-weight: 700;
+        cursor: pointer;
+
+    
+    }
+    button:hover{
+        background-color: $light-pink;
+        border: $light-pink solid 2px;
+    }
+
+}

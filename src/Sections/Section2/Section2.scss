@@ -1,7 +1,8 @@
 @import '../../Sass/Variables.scss';
 
 .Section2Container {
-margin-top: 10%;
+    background-color: $pale-blue;
+    height: 50vh;
 }
 
 .SectionText{
@@ -10,7 +11,7 @@ margin-top: 10%;
     text-align: left;
     margin-left: 10%;
     display: inline-block;
-    padding-top: 5%;
+    padding-top: 4.5%;
     h1 {
         font-family: $header-font;
     }

@@ -1,7 +1,13 @@
 @import '../../Sass/Variables.scss';
 
 .Section3Container {
-    margin-top: 15%;
+    background-image: url('../../Assets/bg-section-bottom-desktop-1.svg'), url('../../Assets/bg-section-top-desktop-1.svg');
+    background-repeat: no-repeat;
+    background-position: top,bottom;
+    background-size: 100%;
+    padding-top: 15%;
+    padding-bottom: 21%;
+
 }
 
 #Section3Text {
