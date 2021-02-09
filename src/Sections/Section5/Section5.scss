@@ -34,3 +34,75 @@
         background-color: $light-pink;
     }
 }
+
+//Large Tablet 
+
+@media only screen and (max-width : 1024px) {
+    .Section5Container {
+        min-height: 30vh;
+        padding-top: 20%;
+
+        button {
+            width: 50%;
+        }
+    }
+
+
+}
+
+
+
+//Tablet 
+
+@media only screen and (max-width : 991px) and (max-width : 1023px) {
+    
+    .Section5Container {
+        min-height: 35vh;
+        padding-top: 20%;
+
+        button {
+            width: 50%;
+        }
+    }
+
+  
+}
+
+
+
+
+
+
+//Mobile 
+
+
+@media only screen and (min-width : 300px) and (max-width : 767px) {
+
+
+
+
+
+    .Section5Container {
+
+        background-image: url('../../Assets/bg-section-bottom-mobile-1.svg'), url('../../Assets/bg-footer-top-mobile.svg');
+        background-position: top, bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        min-height: 40vh;
+        padding-top: 15%;
+        font-family: $header-font;
+
+        button {
+            width: 70%;     
+        }
+    }
+
+ 
+
+  
+}
+
+
+
+
+  

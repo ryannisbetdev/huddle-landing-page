@@ -2,7 +2,7 @@
 
 .Section2Container {
     background-color: $pale-blue;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .SectionText{
@@ -30,7 +30,98 @@
     }
 }
 
+
 #Section2Image {
     float: right;
 }
+
+
+  
+
+//Tablet 
+
+@media only screen and (min-width : 768px) and (max-width : 1025px) {
+    .Section2Container {
+        background-color: $pale-blue;
+        min-height: 25vh;
+    }
+
+
+    
+    .SectionText{
+        width: 40%;
+        color: $dark-cyan;
+        text-align: left;
+        margin-left: 10%;
+        display: inline-block;
+        padding-top: 4.5%;
+        h1 {
+            font-family: $header-font;
+        }
+
+        p {
+            width: 100%;
+            font-size: 1.1rem;
+        }
+    }
+
+    .SectionImage {
+        width: 40%;
+
+        img {
+            width: 70%;
+        }
+    }
+
+  
+
+
+}
+
+//Mobile 
+
+
+@media only screen and (min-width : 300px) and (max-width : 767px) {
+
+    .SectionImage {
+        width: 100%;
+        margin-top: 15%;
+    
+        img {
+            width: 70%;
+        }
+    }
+
+
+    .SectionText{
+        width: 90%;
+        color: $dark-cyan;
+        text-align: center;
+        display: inline-block;
+        padding-top: 4.5%;
+   
+        h1 {
+            font-family: $header-font;
+        }
+    
+        p {
+            width: 100%;
+            font-size: 1.1rem;
+        }
+    }
+
+    #Section2Text{
+        margin-left: 0px;
+    }
+
+    
+
+    
+  
+}
+
+
+
+
+  
   

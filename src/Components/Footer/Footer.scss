@@ -22,6 +22,16 @@ footer {
     p {
         width: 30%;
     }
+
+    a {
+        color: $pale-blue;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
 .FooterRight {
@@ -61,3 +71,123 @@ footer {
     }
 
 }
+
+
+
+
+//Tablet 
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    footer {
+        background-color: $dark-cyan;
+        color: $pale-blue;
+        text-align: left;
+        font-family: $body-font;
+        min-height: 10vh;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+    
+
+.FooterLeft, .FooterRight{
+
+    p {
+        width: 80%;
+    }
+
+    img {
+        width: 60%;
+        padding-top: 10%;
+    }
+}
+
+
+  
+}
+
+//Mobile 
+
+
+@media only screen and (min-width : 300px) and (max-width : 767px) {
+
+    footer {
+        background-color: $dark-cyan;
+        color: $pale-blue;
+        text-align: left;
+        font-family: $body-font;
+        height: 26vh;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+    
+    .FooterRight {
+        width: 100%;
+        float: right;
+        background-color: $dark-cyan;   
+        margin: 0;
+     
+    
+        h1 {
+            text-transform: uppercase;
+            text-align: left;
+            margin-left: 10%;
+            
+        }
+        p {
+            width: 80%;
+            margin-left: 10%;
+        
+        }
+    
+        input {
+            padding: 10px;
+            font-size: 1rem;
+            width: 50%;
+            margin-bottom: 2%;
+            margin-left: 10%;
+        }
+    
+        button {
+            font-size: 1rem;
+            padding: 10px;
+            background-color: $pink;
+            border: $pink solid 2px;
+            color: $pale-blue;
+            font-weight: 700;
+            cursor: pointer;
+    
+        
+        }
+        button:hover{
+            background-color: $light-pink;
+            border: $light-pink solid 2px;
+        }
+    
+    }
+  
+    .FooterLeft{
+        width: 100%;
+        padding: 0;
+
+        img {
+            width: 60%;
+            margin-left: 10%;
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+
+        p{
+            margin-left: 10%;;
+            width: 80%;
+        }
+   
+    }
+
+}
+
+
+
+
+  
+  

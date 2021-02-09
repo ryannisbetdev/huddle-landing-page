@@ -36,9 +36,9 @@
             font-weight: 700;
             border-radius: 30px;
             margin-top: 1%;
-            -webkit-box-shadow: -3px -2px 40px -20px rgba(74,73,74,1);
-            -moz-box-shadow: -3px -2px 40px -20px rgba(74,73,74,1);
-            box-shadow: -3px -2px 44px -20px rgba(74,73,74,1);
+            -webkit-box-shadow: -3px -2px 40px -20px rgba(121, 120, 121,1);
+            -moz-box-shadow: -3px -2px 40px -20px rgba(121, 120, 121,1);
+            box-shadow: -3px -2px 44px -20px rgb(121, 120, 121);
             cursor: pointer;
     
            
@@ -51,7 +51,7 @@
     }
 
 
-    .StatBox{
+    .StatBox {
         width: 50%;
         display: inline-block;
         margin-top: 5%;
@@ -82,3 +82,149 @@
 
   
 }
+
+
+
+
+//Tablet 
+
+@media only screen and (min-width : 768px) and (max-width : 1025px) {
+  
+.Section1Container {
+    padding-top: 10%;
+    color: $dark-cyan;
+    background-image: url('../../Assets/bg-section-top-desktop-1.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    padding-bottom: 15%;
+
+    .Section1Text{
+        
+        h1 {
+            font-family: $header-font;
+            font-size: 3rem;
+            width: 80%;
+            margin-left: 10%;
+            
+        }
+    
+        p {
+            width: 60%;
+            margin-left: 20%;
+        }
+    
+        button {
+            width: 50%;
+        }
+
+    }
+
+
+    .StatBox {
+        img {
+            width: 10%;
+            margin-right: 30%;
+        }
+    }
+    
+
+  
+}  
+  
+}
+
+//Mobile 
+
+
+@media only screen and (min-width : 300px) and (max-width : 767px) {
+
+    .Section1Container {
+        padding-top: 30%;
+        color: $dark-cyan;
+        background-image: url('../../Assets/bg-section-top-mobile-1.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        padding-bottom: 15%;
+
+
+        .Section1Text{
+        
+            h1 {
+                font-family: $header-font;
+                font-size: 2em;               
+            }
+        
+            p {
+                font-family: $body-font;
+                font-size: 1.2rem;
+                width: 80%;
+                margin-left: 10%;
+            }
+        
+            button {
+                width: 80%;
+                background-color: $pink;
+                border: none;
+                font-family: $body-font;
+                color: $pale-blue;
+                font-size: 1.2rem;
+                padding: 20px;
+                font-weight: 700;
+                border-radius: 30px;
+                margin-top: 1%;
+                -webkit-box-shadow: -3px -2px 40px -20px rgba(121, 120, 121,1);
+                -moz-box-shadow: -3px -2px 40px -20px rgba(121, 120, 121,1);
+                box-shadow: -3px -2px 44px -20px rgb(121, 120, 121);
+                cursor: pointer;
+                
+            }
+        }
+
+     img {
+            width: 80%;
+            padding-top: 20%;
+            
+        }
+
+
+
+        
+        .StatBox {
+            width: 100%;
+            display: inline-block;
+            margin-top: 5%;
+    
+            img {
+                width: 10%;
+                margin-right: 40%;
+            }
+    
+            h1 {
+                font-family: $body-font;
+                font-size: 4rem;
+                margin: 0;
+            }
+    
+            p {
+                margin-top: 1%;
+            }
+          
+        }
+
+
+        
+
+    }
+
+
+    
+  
+}
+
+
+
+
+  
+  

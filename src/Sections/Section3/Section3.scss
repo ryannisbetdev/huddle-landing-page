@@ -19,3 +19,53 @@
     margin-left: 7%;
 }
   
+
+
+
+//Tablet 
+
+@media only screen and (min-width : 768px) and (max-width : 1025px) {
+    
+    #Section3Text {
+        display: inline-block;
+        margin-right: 3%;
+    }
+    
+
+  
+}
+
+//Mobile 
+
+
+@media only screen and (min-width : 300px) and (max-width : 767px) {
+
+
+    .Section3Container {
+        background-image: url('../../Assets/bg-section-bottom-mobile-1.svg'), url('../../Assets/bg-section-top-mobile-1.svg');
+        background-repeat: no-repeat;
+        background-position: top,bottom;
+        background-size: 100%;
+        padding-top: 15%;
+        padding-bottom: 21%;
+    
+    }
+
+    #Section3Image{
+        float: left;
+        margin-left: 0%;
+    }
+
+    #Section3Text {
+       margin-left: 0;
+    }
+    
+    
+  
+}
+
+
+
+
+  
+  

@@ -10,3 +10,38 @@
     float: right;
 }
   
+
+
+//Tablet 
+
+@media only screen and (min-width : 768px) and (max-width : 1025px) {
+    
+    .Section4Container {
+        background-color: $pale-blue;
+        min-height: 25vh;
+    }
+
+  
+}
+
+
+
+
+//Mobile 
+
+
+@media only screen and (min-width : 300px) and (max-width : 767px) {
+
+    #Section4Image{
+        float: left;
+        margin-left: 0%;
+    }
+
+    #Section4Text {
+        margin-left: 0;
+     }
+     
+    
+  
+}
+
